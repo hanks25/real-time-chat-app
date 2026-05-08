@@ -1,12 +1,23 @@
 # Real Time chat app
 with a front end and a back end for chatting
 
-## Build the app
+## Deployment
+https://real-time-chat-app-jb27.onrender.com
+
+## Run in local
+### Build the app
 ```
+cd frontend
+npm install
 npm run build
+cd ../backend
+npm install
 ```
 
-## Start the app
+### Start the app
 ```
-npm start
+cd backend
+npm run dev
+cd ../frontend
+npm run dev
 ```
